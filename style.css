@@ -91,5 +91,28 @@
 .flower-image > img {
   height: 100%;
   width: 100%;
- 
+}
+.featured-flowers p {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+}
+/* customer support container  */
+.customer-support-container {
+  max-width: 1440px;
+  margin: 128px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding-top: 86px;
+  padding-bottom: 86px;
+}
+.customer-support-container p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 24px;
 }
