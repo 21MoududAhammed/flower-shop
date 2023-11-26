@@ -116,3 +116,42 @@
   font-weight: 600;
   margin-top: 24px;
 }
+
+/* hot offer  */
+.hot-offer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 128px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+.hot-offer h1 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.hot-color {
+  color: #e55473;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hot-offer p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  /* margin-bottom: 32px; */
+}
+.sign-up{
+  margin-top: 32px;
+}
+
+
