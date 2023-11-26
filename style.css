@@ -14,13 +14,16 @@
   font-size: 20px;
   text-decoration: none;
 }
+header{
+  background: rgba(229, 84, 115, 0.1);
+}
 .banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 50px;
   margin: 0 auto;
-  background: rgba(229, 84, 115, 0.1);
+  
   padding-top: 50px;
   max-width: 1430px;
   margin: 0 auto;
@@ -118,6 +121,9 @@
 }
 
 /* hot offer  */
+.hot-offer-section{
+  background: rgba(229, 84, 115, 0.05);
+}
 .hot-offer {
   display: flex;
   justify-content: space-evenly;
@@ -126,7 +132,6 @@
   margin: 0 auto;
   margin-bottom: 128px;
   border-radius: 8px;
-  background: rgba(229, 84, 115, 0.05);
   padding: 100px 0px 100px 0px;
   text-align: center;
 }
