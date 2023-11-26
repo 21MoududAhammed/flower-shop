@@ -160,7 +160,7 @@
   margin: 0 auto;
   margin-bottom: 128px;
   text-align: center;
-  background: #FFF;
+  background: #fff;
 }
 .insta-title {
   color: #272727;
@@ -174,8 +174,41 @@
   font-size: 18px;
   font-weight: 400;
 }
-.instagram-gallery{
+.instagram-gallery {
   margin-top: 48px;
   display: flex;
   justify-content: space-evenly;
 }
+/* subscribe section  */
+.subscribe-container {
+  background-image: url("images/background-image.png");
+  background-repeat: no-repeat;
+  padding: 122px 0px;
+  max-width: 1440px;
+  margin: 0 auto 128px auto;
+  text-align: center;
+}
+.subscribe-heading {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.subscribe-info {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.subscribe-container input {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #fff;
+  color: #FFFFFF;
+  font-size: 1rem;
+  margin-top: 48px;
+  margin-right: 16px;
+  padding: 22px;
+}
+
